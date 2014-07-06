@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+		<perch:form id="" method="" app="">
+			<perch:label for=""></perch:label>
+			<perch:input type="" id="" required="" label="" class="" antispam=""/>
+
+			<perch:success show-form=""> … </perch:success>
+		</perch:form>]]></content>
+	<tabTrigger>perchform</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
