@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+		<perch:input type="week" id="" format="" required="" label="" />
+		]]></content>
+	<tabTrigger>perchforminputweek</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

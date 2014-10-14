@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<perch:error for="" type=""></perch:error>]]></content>
+	<tabTrigger>perchformerror</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

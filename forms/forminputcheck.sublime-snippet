@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+		<perch:input type="checkbox" id="" value="" required="" label="" />
+		]]></content>
+	<tabTrigger>perchforminputcheck</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

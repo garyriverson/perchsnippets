@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+		<perch:input type="color" id="" required="" label="" />
+		]]></content>
+	<tabTrigger>perchforminputcolor</tabTrigger>
+	<scope>text.html</scope>
+</snippet>
