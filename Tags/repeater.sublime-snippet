@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[<perch:repeater id="" label="" max="" scope-parent="">
-	</perch:repeater>]]></content>
-	<tabTrigger>perchrepeater</tabTrigger>
-	<scope>text.html</scope>
-</snippet>

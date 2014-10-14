@@ -1,5 +1,0 @@
-<snippet>
-	<content><![CDATA[<perch:every count="" nth-child=""></perch:every>]]></content>
-	<tabTrigger>perchevery</tabTrigger>
-	<scope>text.html</scope>
-</snippet>

@@ -1,5 +1,0 @@
-<snippet>
-	<content><![CDATA[<perch:template path="" rescope=""/>]]></content>
-	<tabTrigger>perchtemplate</tabTrigger>
-	<scope>text.html</scope>
-</snippet>
