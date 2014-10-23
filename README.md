@@ -30,12 +30,12 @@ Tag | TabTrigger|Details
 `---`|perchformex|Creates [example form](http://docs.grabaperch.com/docs/form/template-tags/).
 `<perch:label>`|perchformlabel|Label tag with attributes.
 `<perch:error>`|percherror|Creates error tag with attributes.
-Inputs||
+
+Inputs|..|..|
 `<perch:input>`|perchforminput|Creates input element with default attributes.
 `<perch:input type="text">`|perchforminputtext|Creates input element of type text 
 `<perch:input type="email">`|perchforminputemail|Creates input element of type email
-`<perch:input type="url">`|perchforminputurl|Creates an input element of type url in your form. This wil validate to require a protocol.
-
+`<perch:input type="url">`|perchforminputurl|Creates an input element of type url in your form. This will validate to require a protocol.
 `<perch:input type="range">`|perchforminputrange|Includes min, max and step attributes; creates html5 widgets.
 `<perch:input type="number">`|perchforminputnum|Like range, includes min, max and step attributes.
 `<perch:input type="date">`|perchforminputdate|Creates date input, accepts YYYY-MM-DD format. 
