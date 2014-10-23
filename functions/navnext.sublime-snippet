@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_pages_next_page(); ?>]]></content>
+	<tabTrigger>perchnavnext</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

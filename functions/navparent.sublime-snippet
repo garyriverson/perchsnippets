@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_pages_parent_page(); ?>]]></content>
+	<tabTrigger>perchnavparent</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

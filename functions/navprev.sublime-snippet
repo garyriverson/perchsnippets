@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_pages_previous_page(); ?>]]></content>
+	<tabTrigger>perchnavprev</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>
