@@ -55,10 +55,8 @@ Tag | TabTrigger|Details
 | ------------- |-------------|---|
 `<?php perch_content(''); ?>`|perchregion|Creates new content region
 `<?php perch_content_custom('', array()); ?>`|perchregioncustom|Creates new custom content region
-'<?php perch_pages_navigation(); ?>'|perchnavtree|Outputs navigation tree of pages that exist (are editable) in Perch.
-'<?php perch_pages_navigation(array(
-    'levels' => 1,
-)); ?>'|perchnavtreetop|Outputs top level of navigation tree.
+`<?php perch_pages_navigation(); ?>`|perchnavtree|Outputs navigation tree of pages that exist (are editable) in Perch.
+`<?php perch_pages_navigation(array('levels' => 1,)); ?>`|perchnavtreetop|Outputs top level of navigation tree.
 
 ## Installation and Use
 
