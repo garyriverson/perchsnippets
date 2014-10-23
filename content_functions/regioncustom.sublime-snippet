@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[<?php
-    perch_content_custom('', array(
-        
-    )); 
-?>]]></content>
-	<tabTrigger>perchregioncustom</tabTrigger>
-	<scope>source.php, text.html</scope>
-</snippet>

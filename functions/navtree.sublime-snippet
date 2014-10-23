@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_pages_navigation(); ?>]]></content>
+	<tabTrigger>perchnavtree</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

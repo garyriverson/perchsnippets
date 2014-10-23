@@ -4,6 +4,7 @@ perchsnippets
 Sublime Text 2 snippets for [Perch CMS](http://grabaperch.com) projects. Currently includes HTML templating tags and region creation / custom region array functions. I will be adding triggers for the major apps as I need them in my own projects (or feel like adding them).
 
 __Update (10/13/2014):__ Added forms app snippets. Moved form-related tags into forms folder. Added `<perch:help>` and `<perch:search/>` snippets to Content snippets.
+__Update (10/23/2014):__ Renamed content_functions folder to 'functions', which reflects the additions of navigation functions. 
 
 ## Content
 
@@ -49,11 +50,15 @@ Tag | TabTrigger|Details
 `<perch:input type="file">`|perchforminputfile|Creates a file input
 `<perch:input type="hidden">`|perchforminputhidden|Creates a hidden field.
 `<perch:input type="submit">`|perchforminputsubmit|Creates a submit field. Includes value attribute, which becomes the text displayed on the submit button.
-
-Function | TabTrigger|Details
+## Functions
+Tag | TabTrigger|Details
 | ------------- |-------------|---|
-`<?php perch_content(''); ?>`|perchregion|
-`<?php perch_content_custom('', array()); ?>`|perchregioncustom|
+`<?php perch_content(''); ?>`|perchregion|Creates new content region
+`<?php perch_content_custom('', array()); ?>`|perchregioncustom|Creates new custom content region
+'<?php perch_pages_navigation(); ?>'|perchnavtree|Outputs navigation tree of pages that exist (are editable) in Perch.
+'<?php perch_pages_navigation(array(
+    'levels' => 1,
+)); ?>'|perchnavtreetop|Outputs top level of navigation tree.
 
 ## Installation and Use
 
