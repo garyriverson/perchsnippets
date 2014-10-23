@@ -57,9 +57,7 @@ Tag | TabTrigger|Details
 `<?php perch_content_custom('', array()); ?>`|perchregioncustom|Creates new custom content region
 `<?php perch_pages_navigation(); ?>`|perchnavtree|Outputs navigation tree of pages that exist (are editable) in Perch.
 `<?php perch_pages_navigation(array('levels' => 1,)); ?>`|perchnavtreetop|Outputs top level of navigation tree.
-`<?php perch_page_modified(
-	array('format' => '%d %B %Y, %H:%M',
-));?>`|perchnavmod|Outputs the date the page was last updated; formatted using [strftime](http://php.net/strftime) codes.
+`<?php perch_page_modified(array('format' => '%d %B %Y, %H:%M',));?>`|perchnavmod|Outputs the date the page was last updated; formatted using [strftime](http://php.net/strftime) codes.
 `<?php perch_pages_breadcrumbs(); ?>`|perchnavcrumbs|Outputs a breadcrumb trail for the current page.
 `<?php perch_pages_next_page(); ?>`|perchnavnext|Outputs details of the next page in the navigational hierarchy. 
 `<?php perch_pages_previous_page(); ?>`|perchnavprev|Outputs details of the previous page.
