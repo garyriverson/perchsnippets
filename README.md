@@ -1,7 +1,7 @@
 perchsnippets
 =============
 # Overview
-Sublime Text 2 snippets for [Perch CMS](http://grabaperch.com) projects. Currently includes HTML templating tags and region creation / custom region array functions. I will be adding triggers for the major apps as I need them in my own projects (or feel like adding them).
+Sublime Text snippets for [Perch CMS](http://grabaperch.com) projects. Currently includes HTML templating tags and region creation / custom region array functions. I will be adding triggers for the major apps as I need them in my own projects (or feel like adding them).
 
 __Update (10/13/2014):__ Added forms app snippets. Moved form-related tags into forms folder. Added `<perch:help>` and `<perch:search/>` snippets to Content snippets.
 __Update (10/23/2014):__ Renamed content_functions folder to 'functions', which reflects the additions of navigation functions. 
@@ -57,10 +57,17 @@ Tag | TabTrigger|Details
 `<?php perch_content_custom('', array()); ?>`|perchregioncustom|Creates new custom content region
 `<?php perch_pages_navigation(); ?>`|perchnavtree|Outputs navigation tree of pages that exist (are editable) in Perch.
 `<?php perch_pages_navigation(array('levels' => 1,)); ?>`|perchnavtreetop|Outputs top level of navigation tree.
+`<?php perch_page_modified(
+	array('format' => '%d %B %Y, %H:%M',
+));?>`|perchnavmod|Outputs the date the page was last updated; formatted using [strftime](http://php.net/strftime) codes.
+`<?php perch_pages_breadcrumbs(); ?>`|perchnavcrumbs|Outputs a breadcrumb trail for the current page.
+`<?php perch_pages_next_page(); ?>`|perchnavnext|Outputs details of the next page in the navigational hierarchy. 
+`<?php perch_pages_previous_page(); ?>`|perchnavprev|Outputs details of the previous page.
+`<?php perch_pages_parent_page(); ?>`|perchnavparent|Outputs details of the current page's parent page.
 
 ## Installation and Use
 
-These snippets are for Sublime Text 2 or 3 and are sorted into folders, currently one for template tags and one for content functions so that you can easily pick out the ones you want. 
+These snippets are for Sublime Text 2 or 3 and are sorted into folders, so that you can easily pick out the ones you want. 
 
 
 1. Copy the Perch Snippets folder into the `/Packages/User` folder, which can be accessed easily through `Preferences` > `Browse Packages`. 
