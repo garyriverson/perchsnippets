@@ -30,8 +30,6 @@ Tag | TabTrigger|Details
 `---`|perchformex|Creates [example form](http://docs.grabaperch.com/docs/form/template-tags/).
 `<perch:label>`|perchformlabel|Label tag with attributes.
 `<perch:error>`|percherror|Creates error tag with attributes.
-
-Inputs|..|..|
 `<perch:input>`|perchforminput|Creates input element with default attributes.
 `<perch:input type="text">`|perchforminputtext|Creates input element of type text 
 `<perch:input type="email">`|perchforminputemail|Creates input element of type email
