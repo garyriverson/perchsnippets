@@ -1,10 +1,7 @@
 perchsnippets
 =============
 # Overview
-Sublime Text snippets for [Perch CMS](http://grabaperch.com) projects. Currently includes HTML templating tags and region creation / custom region array functions. I will be adding triggers for the major apps as I need them in my own projects (or feel like adding them).
-
-__Update (10/13/2014):__ Added forms app snippets. Moved form-related tags into forms folder. Added `<perch:help>` and `<perch:search/>` snippets to Content snippets.
-__Update (10/23/2014):__ Renamed content_functions folder to 'functions', which reflects the additions of navigation functions. 
+Sublime Text snippets for [Perch CMS](http://grabaperch.com) projects. Currently includes HTML templating tags and region creation / custom region array functions. 
 
 ## Content
 
@@ -12,6 +9,8 @@ Tag | TabTrigger|Details
 | ------------- |-------------|---|
 `<perch:after>`|perchafter|
 `<perch:before>`|perchbefore|
+`<perch:blocks>`|perchblocks|Creates blocks group
+`<perch:block>`|perchblock|Creates block
 `<perch:content>`|perchcontent|
 `<perch:else>`|perchifelse|
 `<perch:every>`|perchevery|
@@ -53,6 +52,7 @@ Tag | TabTrigger|Details
 ## Functions
 Tag | TabTrigger|Details
 | ------------- |-------------|---|
+`<?php include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php');?>`|perchruntime|Creates an include for the runtime from the root of the server
 `<?php perch_content(''); ?>`|perchregion|Creates new content region
 `<?php perch_content_custom('', array()); ?>`|perchregioncustom|Creates new custom content region
 `<?php perch_pages_navigation(); ?>`|perchnavtree|Outputs navigation tree of pages that exist (are editable) in Perch.
