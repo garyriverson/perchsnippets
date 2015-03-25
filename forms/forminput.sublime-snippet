@@ -2,6 +2,6 @@
 	<content><![CDATA[
 		<perch:input type="" id="" required="" label="" />
 		]]></content>
-	<tabTrigger>perchforminput</tabTrigger>
+	<tabTrigger>perchinput</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

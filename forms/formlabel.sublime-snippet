@@ -2,6 +2,6 @@
 	<content><![CDATA[
 		<perch:label for=""></perch:label>
 		]]></content>
-	<tabTrigger>perchformlabel</tabTrigger>
+	<tabTrigger>perchlabel</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

@@ -2,6 +2,6 @@
 	<content><![CDATA[
 		<perch:input type="file" id="" bucket="" output="" required="" label="" />
 		]]></content>
-	<tabTrigger>perchforminputfile</tabTrigger>
+	<tabTrigger>perchinputfile</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

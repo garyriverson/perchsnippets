@@ -2,6 +2,6 @@
 	<content><![CDATA[
 		<perch:input type="image" id="" width="" height="" crop="" quality="85" output="" density="1" sharpen="4" bucket="" required="" label="" />
 		]]></content>
-	<tabTrigger>perchforminputimage</tabTrigger>
+	<tabTrigger>perchinputimage</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

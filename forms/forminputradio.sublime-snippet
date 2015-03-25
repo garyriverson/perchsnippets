@@ -2,6 +2,6 @@
 	<content><![CDATA[
 		<perch:input type="radio" id="" required="" label="" />
 		]]></content>
-	<tabTrigger>perchforminputradio</tabTrigger>
+	<tabTrigger>perchinputradio</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

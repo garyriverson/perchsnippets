@@ -5,7 +5,7 @@ Sublime Text snippets for [Perch CMS](http://grabaperch.com) projects. Currently
 
 ## Content
 
-Tag | TabTrigger|Details
+Tag | Trigger|Details
 | ------------- |-------------|---|
 `<perch:after>`|perchafter|
 `<perch:before>`|perchbefore|
@@ -24,33 +24,33 @@ Tag | TabTrigger|Details
 
 ## Forms
 
-Tag | TabTrigger|Details
+Tag | Trigger|Details
 | ------------- |-------------|---|
 `<perch:form>`|perchform|Also includes `<perch:input>` and `<perch:label>` tags for faster form creation
 `---`|perchformex|Creates [example form](http://docs.grabaperch.com/docs/form/template-tags/).
 `<perch:label>`|perchformlabel|Label tag with attributes.
 `<perch:error>`|percherror|Creates error tag with attributes.
-`<perch:input>`|perchforminput|Creates input element with default attributes.
-`<perch:input type="text">`|perchforminputtext|Creates input element of type text 
-`<perch:input type="email">`|perchforminputemail|Creates input element of type email
-`<perch:input type="url">`|perchforminputurl|Creates an input element of type url in your form. This will validate to require a protocol.
-`<perch:input type="range">`|perchforminputrange|Includes min, max and step attributes; creates html5 widgets.
-`<perch:input type="number">`|perchforminputnum|Like range, includes min, max and step attributes.
-`<perch:input type="date">`|perchforminputdate|Creates date input, accepts YYYY-MM-DD format. 
-`<perch:input type="datetime">`|perchforminputdatetime|Creates datetime input, accepts YYYY-MM-DD HH:MM format.
-`<perch:input type="month">`|perchforminputmonth|Creates month input, accepts YYYY-MM format.
-`<perch:input type="week">`|perchforminputweek|Accepts a year and week number YYYY-WNN e.g. 2011-W23 (W is literal)
-`<perch:input type="color">`|perchforminputcolor|Accepts a hex color;displays as html5 colorpicker in some browsers.
-`<perch:input type="textarea">`|perchforminputtextarea|Creates a textarea.
-`<perch:input type="select">`|perchforminputselect|Creates a select list; includes the options attribute.
-`<perch:input type="radio">`|perchforminputradio|Creates a radio input.
-`<perch:input type="checkbox">`|perchforminputcheck|Creates a checkbox; the value set will be checked by default.
-`<perch:input type="image">`|perchforminputimage|Creates an image input with all possible attributes.
-`<perch:input type="file">`|perchforminputfile|Creates a file input
-`<perch:input type="hidden">`|perchforminputhidden|Creates a hidden field.
-`<perch:input type="submit">`|perchforminputsubmit|Creates a submit field. Includes value attribute, which becomes the text displayed on the submit button.
+`<perch:input>`|perchinput|Creates input element with default attributes.
+`<perch:input type="text">`|perchinputtext|Creates input element of type text 
+`<perch:input type="email">`|perchinputemail|Creates input element of type email
+`<perch:input type="url">`|perchinputurl|Creates an input element of type url in your form. This will validate to require a protocol.
+`<perch:input type="range">`|perchinputrange|Includes min, max and step attributes; creates html5 widgets.
+`<perch:input type="number">`|perchinputnum|Like range, includes min, max and step attributes.
+`<perch:input type="date">`|perchinputdate|Creates date input, accepts YYYY-MM-DD format. 
+`<perch:input type="datetime">`|perchinputdatetime|Creates datetime input, accepts YYYY-MM-DD HH:MM format.
+`<perch:input type="month">`|perchinputmonth|Creates month input, accepts YYYY-MM format.
+`<perch:input type="week">`|perchinputweek|Accepts a year and week number YYYY-WNN e.g. 2011-W23 (W is literal)
+`<perch:input type="color">`|perchinputcolor|Accepts a hex color;displays as html5 colorpicker in some browsers.
+`<perch:input type="textarea">`|perchinputtextarea|Creates a textarea.
+`<perch:input type="select">`|perchinputselect|Creates a select list; includes the options attribute.
+`<perch:input type="radio">`|perchinputradio|Creates a radio input.
+`<perch:input type="checkbox">`|perchinputcheck|Creates a checkbox; the value set will be checked by default.
+`<perch:input type="image">`|perchinputimage|Creates an image input with all possible attributes.
+`<perch:input type="file">`|perchinputfile|Creates a file input
+`<perch:input type="hidden">`|perchinputhidden|Creates a hidden field.
+`<perch:input type="submit">`|perchinputsubmit|Creates a submit field. Includes value attribute, which becomes the text displayed on the submit button.
 ## Functions
-Tag | TabTrigger|Details
+Tag | Trigger|Details
 | ------------- |-------------|---|
 `<?php include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php');?>`|perchruntime|Creates an include for the runtime from the root of the server
 `<?php perch_content(''); ?>`|perchregion|Creates new content region
