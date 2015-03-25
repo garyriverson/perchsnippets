@@ -28,7 +28,7 @@ Tag | Trigger|Details
 | ------------- |-------------|---|
 `<perch:form>`|perchform|Also includes `<perch:input>` and `<perch:label>` tags for faster form creation
 `---`|perchformex|Creates [example form](http://docs.grabaperch.com/docs/form/template-tags/).
-`<perch:label>`|perchformlabel|Label tag with attributes.
+`<perch:label>`|perchlabel|Label tag with attributes.
 `<perch:error>`|percherror|Creates error tag with attributes.
 `<perch:input>`|perchinput|Creates input element with default attributes.
 `<perch:input type="text">`|perchinputtext|Creates input element of type text 
