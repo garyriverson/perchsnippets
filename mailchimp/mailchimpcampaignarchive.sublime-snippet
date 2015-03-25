@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_mailchimp_campaigns(); ?>]]></content>
+	<tabTrigger>perchchimparchive</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

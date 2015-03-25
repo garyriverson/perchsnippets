@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_mailchimp_form('subscribe.html'); ?>]]></content>
+	<tabTrigger>perchchimpadd</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>
