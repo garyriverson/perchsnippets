@@ -83,6 +83,8 @@ Output | Trigger | Details
 `N/A`|perchcommentlisttemplate|Outputs [example comment listing](http://docs.grabaperch.com/addons/comments/template-tags/) template
 
 ##Mailchimp
+Output | Trigger | Details
+|---|---|---|
 `<?php perch_mailchimp_form('subscribe.html'); ?>`|perchchimpadd|Add a subscriber
 `<?php perch_mailchimp_campaigns(); ?>`|perchchimparchive|Display a campaign archive
 
