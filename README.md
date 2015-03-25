@@ -79,8 +79,8 @@ Output | Trigger | Details
 `<?php perch_comments_count('itemid123'); ?>`|perchcommentcount|Display count of comments on an item
 `<?php perch_comments_form('product123', 'Elasticated garden yoga pants'); ?>`|perchcommentsform|Outputs a comment form
 `<?php perch_comments('product123'); ?>`|perchcomments|Displays all comments for a given item id
-|perchcommentformtemplate|Outputs [example comment form](http://docs.grabaperch.com/addons/comments/template-tags/) template
-|perchcommentlisttemplate|Outputs [example comment listing](http://docs.grabaperch.com/addons/comments/template-tags/) template
+`N/A`|perchcommentformtemplate|Outputs [example comment form](http://docs.grabaperch.com/addons/comments/template-tags/) template
+`N/A`|perchcommentlisttemplate|Outputs [example comment listing](http://docs.grabaperch.com/addons/comments/template-tags/) template
 
 ## Functions
 Output | Trigger|Details
