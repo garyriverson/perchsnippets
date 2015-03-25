@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_blog_author(perch_get('author')); ?>]]></content>
+	<tabTrigger>perchblogauthor</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

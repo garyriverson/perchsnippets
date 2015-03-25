@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_blog_categories(); ?>]]></content>
+	<tabTrigger>perchblogcat</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

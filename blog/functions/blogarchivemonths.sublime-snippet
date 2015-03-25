@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_blog_date_archive_months(); ?>]]></content>
+	<tabTrigger>perchblogarchivemonths</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

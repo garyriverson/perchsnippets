@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_blog_post_comment_form(perch_get('s')); ?>]]></content>
+	<tabTrigger>perchblogcommentform</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

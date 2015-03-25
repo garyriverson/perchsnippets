@@ -49,8 +49,32 @@ Tag | Trigger|Details
 `<perch:input type="file">`|perchinputfile|Creates a file input
 `<perch:input type="hidden">`|perchinputhidden|Creates a hidden field.
 `<perch:input type="submit">`|perchinputsubmit|Creates a submit field. Includes value attribute, which becomes the text displayed on the submit button.
+
+##Blog
+Output | Trigger | Details
+|---|---|---|
+`<?php perch_blog_author(perch_get('author')); ?>` |perchblogauthor |Display a blog post's author
+`<?php perch_blog_authors(); ?>` |perchblogauthors| Displays list of blog authors
+`<?php perch_blog_author_for_post(perch_get('s')); ?>`|perchblogpostauthor|Displays author of a post
+`<?php perch_blog_categories(); ?>`|perchblogcat|Outputs a list of categories set up for the blog.
+`<?php perch_blog_category(perch_get('cat')); ?>`|perchblogcattitle|Outputs the title of a category
+`<?php perch_blog_date_archive_years(); ?>` |perchblogarchiveyears | Displays a list of years and the count of the number of posts in each year.
+`<?php perch_blog_date_archive_months(); ?>`|perchblogarchivemonths|Displays a list of years, and then months nested within those years, along with post counts.
+`<?php perch_blog_post_categories(perch_get('s')); ?>` |perchblogpostcats|Display the categories for a given blog post.
+`<?php perch_blog_post_comment_form(perch_get('s')); ?>`|perchblogcommentform|Display a comment form for the given post.
+`<?php perch_blog_post_comments(perch_get('s')); ?>`|perchblogcomments | Displays comments for a given post.
+`<?php perch_blog_post_field(perch_get('s'), 'postTitle'); ?>`|perchblogpostfield|Output a single field (such as the title) from a blog post. 
+`<?php perch_blog_post_tags(perch_get('s')); ?>`|perchblogposttags|Displays the tags for a given post.
+`<?php perch_blog_post(perch_get('s')); ?>`|perchblogpost|Displays a single post.
+`<?php perch_blog_recent_posts(10); ?>`|perchblogrecentposts|Get a list of the most recent blog posts.
+`<?php perch_blog_section(perch_get('section')); ?>`|perchblogsection|Output the section.
+`<?php perch_blog_sections(); ?>`|perchblogsections|Output a list of sections set up for the blog.
+`<?php perch_blog_tag(perch_get('tag')); ?>`|perchblogtag|Output the title of a tag.
+`<?php perch_blog_tags(); ?>`|perchblogtags|Display a list of tags used across all blog posts.
+
+
 ## Functions
-Tag | Trigger|Details
+Output | Trigger|Details
 | ------------- |-------------|---|
 `<?php include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php');?>`|perchruntime|Creates an include for the runtime from the root of the server
 `<?php perch_content(''); ?>`|perchregion|Creates new content region

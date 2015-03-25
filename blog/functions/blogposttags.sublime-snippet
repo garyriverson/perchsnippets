@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_blog_post_tags(perch_get('s')); ?>]]></content>
+	<tabTrigger>perchblogposttags</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>
