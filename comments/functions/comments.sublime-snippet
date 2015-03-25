@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_comments('product123'); ?>]]></content>
+	<tabTrigger>perchcomments</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

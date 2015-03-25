@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_comments_count('itemid123'); ?>]]></content>
+	<tabTrigger>perchcommentcount</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

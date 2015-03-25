@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_comments_form('product123', 'Elasticated garden yoga pants'); ?>]]></content>
+	<tabTrigger>perchcommentsform</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

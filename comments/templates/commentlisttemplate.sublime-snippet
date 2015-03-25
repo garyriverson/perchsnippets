@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[<perch:before>
+  <h2>Comments</h2>
+  <ul class="comments listing">
+</perch:before>
+    <li id="comment<perch:comments id="commentID" type="hidden" />">
+      <img src="//www.gravatar.com/avatar/<perch:comments id="commentEmail" type="email" label="Email" order="2" hash="md5" required="true" />?s=120&d=mm" width="60" height="60" />
+      <div class="comment">
+        <div class="commenter">
+          <perch:if exists="commentURL"><a href="<perch:comments id="commentURL" type="url" label="URL" order="3" />"></perch:if>
+            <strong><perch:comments id="commentName" type="text" label="Name" order="1" required="true" />:</strong>
+          <perch:if exists="commentURL"></a></perch:if>
+        </div>
+        <p rel="bookmark" class="date"><perch:comments id="commentDateTime" format="%d %b %Y %X" type="date" time="true" label="Date" /></p>
+        <perch:comments id="commentHTML" encode="false" html="true" type="textarea" label="Message (HTML)" order="4" required="true" />
+      </div>
+    </li>
+<perch:after>
+  </ul>
+</perch:after>]]></content>
+	<tabTrigger>perchcommentlisttemplate</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

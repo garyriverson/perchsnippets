@@ -72,6 +72,15 @@ Output | Trigger | Details
 `<?php perch_blog_tag(perch_get('tag')); ?>`|perchblogtag|Output the title of a tag.
 `<?php perch_blog_tags(); ?>`|perchblogtags|Display a list of tags used across all blog posts.
 
+##Comments
+Output | Trigger | Details
+|---|---|---|
+`<?php perch_comment(4); ?>`|perchcomment|Display a single comment
+`<?php perch_comments_count('itemid123'); ?>`|perchcommentcount|Display count of comments on an item
+`<?php perch_comments_form('product123', 'Elasticated garden yoga pants'); ?>`|perchcommentsform|Outputs a comment form
+`<?php perch_comments('product123'); ?>`|perchcomments|Displays all comments for a given item id
+|perchcommentformtemplate|Outputs [example comment form](http://docs.grabaperch.com/addons/comments/template-tags/) template
+|perchcommentlisttemplate|Outputs [example comment listing](http://docs.grabaperch.com/addons/comments/template-tags/) template
 
 ## Functions
 Output | Trigger|Details
