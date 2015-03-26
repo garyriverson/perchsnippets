@@ -113,13 +113,22 @@ Output | Trigger|Details
 `<?php include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php');?>`|perchruntime|Creates an include for the runtime from the root of the server
 `<?php perch_content(''); ?>`|perchregion|Creates new content region
 `<?php perch_content_custom('', array()); ?>`|perchregioncustom|Creates new custom content region
+
+###Navigation
+Output | Trigger | Details
+|---|---|---|
+`<?php perch_pages_navigation(array('navgroup' =>'footer','levels' => 1)); ?>`|perchnavgroup|Displays navigation group based on slug
+`<?php perch_page_url(); ?>`|perchpageurl|Outputs url of current page
+`<?php perch_page_modified(array('format' => '%d %B %Y, %H:%M',));?>`|perchpagemod|Outputs the date the page was last updated; formatted using [strftime](http://php.net/strftime) codes.
+`<?php perch_pages_breadcrumbs(); ?>`|perchnavcrumbs|Outputs a breadcrumb trail for the current page.
+`<?php perch_pages_navigation_text(); ?>`|perchnavtext|Outputs navigation text of current page.
 `<?php perch_pages_navigation(); ?>`|perchnavtree|Outputs navigation tree of pages that exist (are editable) in Perch.
 `<?php perch_pages_navigation(array('levels' => 1,)); ?>`|perchnavtreetop|Outputs top level of navigation tree.
-`<?php perch_page_modified(array('format' => '%d %B %Y, %H:%M',));?>`|perchnavmod|Outputs the date the page was last updated; formatted using [strftime](http://php.net/strftime) codes.
-`<?php perch_pages_breadcrumbs(); ?>`|perchnavcrumbs|Outputs a breadcrumb trail for the current page.
+`<?php  perch_pages_navigation(array('from-path'=>'/','levels'=>0,'hide-extensions'=>false,'hide-default-doc'=>true,'flat'=>false,'template'=>'item.html','include-parent'=>false,'skip-template'=>false,'siblings'=>false,'only-expand-selected'=>false,'add-trailing-slash'=>false,'navgroup'=>false,'include-hidden'=>false,));?>`|perchnavall|Perch_pages_navigation with all available options
 `<?php perch_pages_next_page(); ?>`|perchnavnext|Outputs details of the next page in the navigational hierarchy. 
-`<?php perch_pages_previous_page(); ?>`|perchnavprev|Outputs details of the previous page.
 `<?php perch_pages_parent_page(); ?>`|perchnavparent|Outputs details of the current page's parent page.
+`<?php perch_pages_previous_page(); ?>`|perchnavprev|Outputs details of the previous page.
+`<?php perch_pages_title(); ?>`|perchpagetitle|Outputs page title
 
 ## Installation and Use
 

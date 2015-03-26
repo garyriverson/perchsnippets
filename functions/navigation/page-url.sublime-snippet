@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_page_url(); ?>]]></content>
+	<tabTrigger>perchpageurl</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

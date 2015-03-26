@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[<?php 
+    perch_pages_navigation(array(
+        'from-path'            => '/',
+        'levels'               => 0,
+        'hide-extensions'      => false,
+        'hide-default-doc'     => true,
+        'flat'                 => false,
+        'template'             => 'item.html',
+        'include-parent'       => false,
+        'skip-template'        => false,
+        'siblings'             => false,
+        'only-expand-selected' => false,
+        'add-trailing-slash'   => false,
+        'navgroup'             => false,
+        'include-hidden'       => false,
+    ));
+?>]]></content>
+	<tabTrigger>perchpagesnav</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

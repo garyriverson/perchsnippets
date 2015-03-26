@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<?php perch_pages_navigation(array(
+  'navgroup' =>'footer',
+  'levels' => 1
+)); ?>]]></content>
+	<tabTrigger>perchnavgroup</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>
