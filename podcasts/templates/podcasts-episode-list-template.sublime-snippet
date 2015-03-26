@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[<perch:before>
+	<div class="modules">
+</perch:before>
+
+<div class="module">
+	<a href="episode.php?s=<perch:podcasts id="showSlug" type="slug" />&amp;ep=<perch:podcasts id="episodeNumber" type="text" />">
+		<img src="<perch:podcasts id="image" width="1600" height="1600" type="image" />" alt="<perch:podcasts id="showTitle" type="text" escape="true" />" />
+		<h3>
+			<perch:podcasts id="episodeNumber" type="text" label="Episode number" size="s" />
+			<perch:podcasts id="episodeTitle" type="text" label="Title" />
+		</h3>
+	</a>
+	<perch:podcasts id="episodeDate" type="date" label="Date" format="d F y" time="true" />
+	<perch:podcasts id="summary" type="textarea" editor="markitup" textile="true" label="Description" size="m" import-from="itunes:summary" />
+	<p>Duration: <perch:podcasts id="episodeDurationHMS" type="text" label="Duration" size="m" help="hh:mm:ss" /></p>
+
+</div>
+
+<perch:after>
+	</div>
+</perch:after>]]></content>
+	<tabTrigger>perchpodcastepisodestem</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

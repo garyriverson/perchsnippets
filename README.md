@@ -88,6 +88,25 @@ Output | Trigger | Details
 `<?php perch_mailchimp_form('subscribe.html'); ?>`|perchchimpadd|Add a subscriber
 `<?php perch_mailchimp_campaigns(); ?>`|perchchimparchive|Display a campaign archive
 
+##Podcasts
+Output | Trigger | Details
+|---|---|---|
+`<?php perch_podcasts_episode(perch_get('s'), perch_get('ep')); ?>`|perchpodcastepisode|Display a single episode
+`<?php perch_podcasts_episodes(perch_get('s')); ?>` |perchpodcastepisodes |Display a list of episodes for a given show
+`<?php perch_podcasts_show(perch_get('s')); ?>` | perchpodcastshow | Display a single show
+`<?php perch_podcasts_shows(); ?>` | perchpodcastshows | Display a list of the shows
+`<?php perch_podcasts_track_play(perch_get('s'), perch_get('ep')); ?>` |perchpodcastlogplay | Log an episode as being played
+
+Template | Trigger | Details 
+|---|---|---|
+`N/A`|perchpodcastepisodetem|Default episode template
+`N/A`|perchpodcastepisodestem|Episodes list template
+`N/A`|perchpodcastshowtem|Default show template
+`N/A`|perchpodcastshowstem|Shows list template
+`N/A`|perchpodcastrss|RSS items template
+`N/A`|perchpodcastrsschannel|RSS channel template
+
+
 ## Functions
 Output | Trigger|Details
 | ------------- |-------------|---|

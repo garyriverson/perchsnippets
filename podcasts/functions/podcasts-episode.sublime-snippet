@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_podcasts_episode(perch_get('s'), perch_get('ep')); ?>]]></content>
+	<tabTrigger>perchpodcastepisode</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

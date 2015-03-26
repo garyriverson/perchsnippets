@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[<perch:before>
+<div class="modules">
+</perch:before>
+
+<div class="module">
+	<a href="show.php?s=<perch:podcasts id="showSlug" type="slug" />">
+		
+		<img src="<perch:podcasts id="image" width="1600" height="1600" type="image" />" alt="<perch:podcasts id="showTitle" type="text" escape="true" />" />
+		<h3><perch:podcasts id="showTitle" type="text" /></h3>
+	</a>
+</div>
+
+<perch:after>
+</div>
+</perch:after>]]></content>
+	<tabTrigger>perchpodcastshowstem</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[<h1>
+	<perch:podcasts id="episodeNumber" type="text" label="Episode number" size="s" />
+	<perch:podcasts id="episodeTitle" type="text" label="Title" />
+</h1>
+<p class="date"><perch:podcasts id="episodeDate" type="date" label="Date" format="d F y" time="true" /></p>
+<perch:podcasts id="summary" type="textarea" editor="markitup" textile="true" label="Description" size="m" import-from="itunes:summary" />
+<p>Duration: <perch:podcasts id="episodeDurationHMS" type="hidden" /></p>
+<audio controls>
+	<source src="<perch:podcasts id="episodeTrackedURL" type="hidden" escape="true" />" type="<perch:podcasts id="episodeFileType" type="hidden" escape="true" />" / 
+</audio>
+<perch:podcasts id="episodeDuration" type="text" label="Duration" size="m" help="hh:mm:ss" suppress="true" />]]></content>
+	<tabTrigger>perchpodcastepisodetem</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

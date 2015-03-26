@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[	<title><perch:podcasts id="showTitle" type="text" /></title>
+	<link><perch:podcasts id="domain" /></link>
+	<language>en-US</language>
+	<copyright>&#xA9; <perch:podcasts id="PERCH_EMAIL_FROM_NAME" /> <perch:podcasts id="domain" /></copyright>
+	<itunes:author></itunes:author>
+	<itunes:summary><![CDATA[<perch:podcasts id="desc" type="textarea" editor="markitup" textile="true" striptags="true" />]]></itunes:summary>
+	<description><![CDATA[<perch:podcasts id="desc" type="textarea" editor="markitup" textile="true" striptags="true" />]]></description>
+	<itunes:owner>
+		<itunes:name><perch:podcasts id="PERCH_EMAIL_FROM_NAME" /></itunes:name>
+		<itunes:email><perch:podcasts id="PERCH_EMAIL_FROM" /></itunes:email>
+	</itunes:owner>
+	<itunes:image href="<perch:podcasts id="domain" /><perch:podcasts id="image" type="image" width="1400" height="1400" />" />
+	<itunes:category text="Arts">
+		<itunes:category text="Design"/>
+	</itunes:category>]]></content>
+	<tabTrigger>perchpodcastrsschannel</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>
