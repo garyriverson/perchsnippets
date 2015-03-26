@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[<?php
+perch_content_custom('Properties', array(
+    'filter'=>array(
+        array(
+            'filter'=>'bedrooms',
+            'match'=>'gte',
+            'value'=>3
+        ),
+        array(
+            'filter'=>'price',
+            'match'=>'lte',
+            'value'=>500000
+        ),
+    )
+));
+?>]]></content>
+	<tabTrigger>perchcustomfiltermulti</tabTrigger>
+	<scope>source.php, text.html</scope>
+</snippet>

@@ -111,8 +111,16 @@ Template | Trigger | Details
 Output | Trigger|Details
 | ------------- |-------------|---|
 `<?php include($_SERVER['DOCUMENT_ROOT'].'/perch/runtime.php');?>`|perchruntime|Creates an include for the runtime from the root of the server
-`<?php perch_content(''); ?>`|perchregion|Creates new content region
-`<?php perch_content_custom('', array()); ?>`|perchregioncustom|Creates new custom content region
+
+
+
+### Content
+Output|Trigger|Details
+|---|---|---|
+`<?php perch_content(''); ?>`|perchcontent|Creates new content region
+`<?php perch_content_custom('News', array()); ?>`|perchcustom|Creates new custom content region
+`<?php perch_content_custom('Properties', array('filter'=>'bedrooms','match'=>'gte','value'=>3));?>`|perchcustomfilter|Custom content filter example
+`<?php perch_content_custom('Properties', array('filter'=>array(array('filter'=>'bedrooms','match'=>'gte','value'=>3),array('filter'=>'price','match'=>'lte','value'=>500000),)));?>`|perchcustomfiltermulti|Filter by multiple fields example
 
 ###Navigation
 Output | Trigger | Details

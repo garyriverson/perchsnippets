@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[<?php
-    perch_content_custom('', array(
+    perch_content_custom('News', array(
         
     )); 
 ?>]]></content>
-	<tabTrigger>perchregioncustom</tabTrigger>
+	<tabTrigger>perchcustom</tabTrigger>
 	<scope>source.php, text.html</scope>
 </snippet>
