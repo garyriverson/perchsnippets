@@ -2,6 +2,6 @@
 	<content><![CDATA[<h1><perch:podcasts id="showTitle" type="text" /></h1>
 <perch:podcasts id="image" type="image" label="Artwork" width="1400" height="1400" suppress="true" />
 <perch:podcasts id="desc" type="textarea" editor="markitup" textile="true" label="Description" size="m" />]]></content>
-	<tabTrigger>perchpodcastshowtem</tabTrigger>
+	<tabTrigger>perchpodcastshow</tabTrigger>
 	<scope>source.php, text.html</scope>
 </snippet>

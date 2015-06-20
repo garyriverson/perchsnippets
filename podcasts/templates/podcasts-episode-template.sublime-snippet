@@ -10,6 +10,6 @@
 	<source src="<perch:podcasts id="episodeTrackedURL" type="hidden" escape="true" />" type="<perch:podcasts id="episodeFileType" type="hidden" escape="true" />" / 
 </audio>
 <perch:podcasts id="episodeDuration" type="text" label="Duration" size="m" help="hh:mm:ss" suppress="true" />]]></content>
-	<tabTrigger>perchpodcastepisodetem</tabTrigger>
+	<tabTrigger>perchpodcastepisode</tabTrigger>
 	<scope>source.php, text.html</scope>
 </snippet>

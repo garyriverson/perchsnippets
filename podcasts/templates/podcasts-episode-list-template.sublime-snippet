@@ -20,6 +20,6 @@
 <perch:after>
 	</div>
 </perch:after>]]></content>
-	<tabTrigger>perchpodcastepisodestem</tabTrigger>
+	<tabTrigger>perchpodcastepisodes</tabTrigger>
 	<scope>source.php, text.html</scope>
 </snippet>

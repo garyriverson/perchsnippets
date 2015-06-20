@@ -99,12 +99,11 @@ Output | Trigger | Details
 
 Template | Trigger | Details 
 |---|---|---|
-`N/A`|perchpodcastepisodetem|Default episode template
-`N/A`|perchpodcastepisodestem|Episodes list template
-`N/A`|perchpodcastshowtem|Default show template
-`N/A`|perchpodcastshowstem|Shows list template
+`N/A`|perchpodcastepisode|Default episode template
+`N/A`|perchpodcastepisodes|Episodes list template
+`N/A`|perchpodcastshow|Default show template
+`N/A`|perchpodcastshows|Shows list template
 `N/A`|perchpodcastrss|RSS items template
-`N/A`|perchpodcastrsschannel|RSS channel template
 
 
 ## Functions
@@ -140,7 +139,7 @@ Output | Trigger | Details
 
 ## Installation and Use
 
-These snippets are for Sublime Text 2 or 3 and are sorted into folders, so that you can easily pick out the ones you want. 
+These snippets are for Sublime Text 2 or 3 and are sorted into folders.
 
 
 1. Copy the Perch Snippets folder into the `/Packages/User` folder, which can be accessed easily through `Preferences` > `Browse Packages`. 
