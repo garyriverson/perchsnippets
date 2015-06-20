@@ -1,7 +1,7 @@
 perchsnippets
 =============
 # Overview
-Sublime Text snippets for [Perch CMS](http://grabaperch.com) projects. Currently includes HTML templating tags and region creation / custom region array functions. 
+Sublime Text snippets for [Perch CMS](http://grabaperch.com) projects. 
 
 ## Content
 
@@ -16,6 +16,7 @@ Tag | Trigger|Details
 `<perch:every>`|perchevery|
 `<perch:help>`|perchhelp|Creates a block of html help information.
 `<perch:if>`|perchif|
+`<perch:layout>`|perchlayout|
 `<perch:noresults>`|perchnoresults|
 `<perch:repeater>`|perchrepeater|
 `<perch:search>`|perchsearch|
