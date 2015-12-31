@@ -1,7 +1,5 @@
 <snippet>
-	<content><![CDATA[
-		<perch:search id="" />
-		]]></content>
+	<content><![CDATA[<perch:search id="$1"/>]]></content>
 	<tabTrigger>perchsearch</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

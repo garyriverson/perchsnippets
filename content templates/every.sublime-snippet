@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<perch:every count="" nth-child=""></perch:every>]]></content>
+	<content><![CDATA[<perch:every count="$1" nth-child="$2">$0</perch:every>]]></content>
 	<tabTrigger>perchevery</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

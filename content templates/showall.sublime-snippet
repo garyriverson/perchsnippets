@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<perch:showall />]]></content>
+	<content><![CDATA[<perch:showall/>]]></content>
 	<tabTrigger>perchshowall</tabTrigger>
 	<scope>text.html</scope>
 </snippet>
