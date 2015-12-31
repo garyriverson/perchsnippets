@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<perch:layout path="" />]]></content>
+	<content><![CDATA[<perch:layout path="$1"/>]]></content>
 	<tabTrigger>perchlayout</tabTrigger>
 	<scope>text.html, source.php</scope>
 </snippet>

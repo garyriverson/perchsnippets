@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<perch:if exists=""></perch:if>]]></content>
+	<content><![CDATA[<perch:if exists="$1">$0</perch:if>]]></content>
 	<tabTrigger>perchif</tabTrigger>
 	<scope>text.html</scope>
 </snippet>

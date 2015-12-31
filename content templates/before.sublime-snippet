@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<perch:before></perch:before>]]></content>
+	<content><![CDATA[<perch:before>$0</perch:before>]]></content>
 	<tabTrigger>perchbefore</tabTrigger>
 	<scope>text.html</scope>
 </snippet>
