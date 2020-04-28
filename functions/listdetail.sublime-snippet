@@ -1,5 +1,12 @@
 <snippet>
-  <content><![CDATA[<?php
+  <content><![CDATA[
+<?php
+    perch_content_create('Items', array(
+     'template'   => 'item_detail.html',
+     'multiple'    => true,
+     'edit-mode' => 'listdetail',
+    ));
+
     if (perch_get('s')) {
 
      // Detail mode
