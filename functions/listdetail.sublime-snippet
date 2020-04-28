@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+
+<?php
+    if (perch_get('s')) {
+
+     // Detail mode
+     perch_content_custom('Items', array(
+          'template' => 'item_detail.html',
+          'filter' => 'slug',
+          'match' => 'eq',
+          'value' => perch_get('s'),
+          'count' => 1,
+     ));
+    } else {
+
+     // List mode
+     perch_content_custom('Items', array(
+          'template' => 'item_listing.html',
+     ));
+    }
+
+    ?>
+]]>
+    </content>
+  <tabTrigger>perchlistdetail</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

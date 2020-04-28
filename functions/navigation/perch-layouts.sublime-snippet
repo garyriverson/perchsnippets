@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[<?php perch_layout('global.header'); ?>]]></content>
+	<tabTrigger>perchlayout</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
