@@ -1,7 +1,5 @@
 <snippet>
-  <content><![CDATA[
-
-<?php
+  <content><![CDATA[<?php
     if (perch_get('s')) {
 
      // Detail mode
@@ -24,5 +22,5 @@
 ]]>
     </content>
   <tabTrigger>perchlistdetail</tabTrigger>
-  <scope>source.php</scope>
+  <scope>source.php, text.html</scope>
 </snippet>

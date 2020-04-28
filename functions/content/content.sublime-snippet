@@ -1,5 +1,5 @@
 <snippet>
 	<content><![CDATA[<?php perch_content(''); ?>]]></content>
 	<tabTrigger>perchcontent</tabTrigger>
-	<scope>source.php</scope>
+	<scope>source.php, text.html</scope>
 </snippet>
