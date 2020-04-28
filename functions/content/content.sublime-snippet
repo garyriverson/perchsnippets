@@ -2,4 +2,5 @@
 	<content><![CDATA[<?php perch_content(''); ?>]]></content>
 	<tabTrigger>perchcontent</tabTrigger>
 	<scope>source.php, text.html</scope>
+	<description>Function</description>
 </snippet>
